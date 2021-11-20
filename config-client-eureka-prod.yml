@@ -1,0 +1,19 @@
+server:
+  port: 12221
+
+spring:
+  application:
+    name: config-client-eureka
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:20010/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    lease-expiration-duration-in-seconds: 10  # 告诉服务端，如果我60s之内没有给你发心跳，就代表我"死"了，将我踢出掉。
+    lease-renewal-interval-in-seconds:  15 #每间隔30s，向服务端发送一次心跳，证明自己依然"存活"
+    prefer-ip-address: true #访问时显示IP地址
+
+name: config-client-eureka-prod
