@@ -1,0 +1,8 @@
+server:
+  port: 12212
+
+spring:
+  application:
+    name: config_client_test
+    
+ name: config_client_test 
