@@ -16,4 +16,4 @@ eureka:
     lease-renewal-interval-in-seconds:  15 #每间隔30s，向服务端发送一次心跳，证明自己依然"存活"
     prefer-ip-address: true #访问时显示IP地址
 
-name: '{cipher}b5d15ec25d44e7e8dc6b987eab087b7e8ceb469b5ca4bb536670da8a7abe0745a1eef02ef7a4a354d63c8dad7d89496e'
+name: '{cipher}cb28b9b0777598d7bfcb1fbb45ed05bb109a30fcd167c01a346dad145ef6db6e89f6817d3acab239442c12de9e8a1fdd'
