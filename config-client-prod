@@ -1,0 +1,8 @@
+server:
+  port: 12213
+
+spring:
+  application:
+    name: config_client_prod
+    
+ name: config_client_prod 
