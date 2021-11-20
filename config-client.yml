@@ -5,4 +5,4 @@ spring:
   application:
     name: config_client
     
- name: config_client 
+name: config_client 
